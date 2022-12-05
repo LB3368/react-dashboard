@@ -1,3 +1,144 @@
+.container {
+  background-color: #f7f7f6;
+  margin: 15%
+}
+.sidebar {
+  display: grid;
+  background-color: #dddddd;
+  width: 25%;
+  text-align: center;
+  align-items: center;
+}
+
+ul {
+  padding: 1%;
+  list-style-type: none;
+  font-weight: bolder;
+}
+.average, .reviews, .sentiment{
+
+  display: inline-block;
+  background-color: #dddddd;
+  width: 30%;
+
+}
+.right {
+ margin-left: 20px;
+}
+
+.topBar {
+
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.website {
+  background-color: #dddddd;
+  height: 30vh;
+
+}
+
+.box {
+  background-color: #bfbebd;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 15vh;
+ 
+}
+
+
+
+/*.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px
+}
+
+.sidebar {
+  background-color: #dddddd;
+
+}*/
+
+
+html {
+  background: #f8f7f7;
+}
+.sidebar {
+  display: grid;
+  background-color: #dddddd;
+  width: 15vw;
+  height: 100vh;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 2%;
+  justify-content: center;
+  float: left;
+  /* margin: 0 1.5%; */
+  /* width: 63%; */
+}
+
+ul {
+  margin-top: 30vh;
+  /* display: grid; */
+}
+
+.reviews {
+  float: left;
+  margin-top: 5%;
+  margin-left: 20px;
+  width: 18vw;
+  height: 40vh;
+  background-color: #dddddd;
+}
+
+.average {
+  display: inline-block;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  margin-left: 20px;
+  width: 18vw;
+  height: 40vh;
+  background-color: #dddddd;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.sentiment {
+  float: right;
+  margin-top: 5%;
+  margin-right: 25vw;
+  width: 18vw;
+  height: 40vh;
+  background-color: #dddddd;
+}
+
+.website {
+  display: grid;
+  background-color: #dddddd;
+  width: 56vw;
+  height: 57vh;
+  margin-bottom: 2%;
+  margin-top: 0%;
+  margin-left: 19%;
+
+}
+
+.box {
+  background-color: #bfbebd;
+  margin-left: 15%;
+  width: 40vw;
+  height: 30vh;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +177,4 @@
     transform: rotate(360deg);
   }
 }
+
